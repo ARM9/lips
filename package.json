@@ -1,0 +1,16 @@
+{
+  "name": "lisp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "start": "node main.js test/test.clj",
+    "build": "jison parser.jison -o parser.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "jison": "^0.4.18"
+  }
+}
